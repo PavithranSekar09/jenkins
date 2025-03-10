@@ -1,8 +1,8 @@
 pipeline{
     agent any
 
-    stage{
-        stages('Build'){
+    stages{
+        stage('Build'){
             steps{
                 echo 'Building java application'
             }
